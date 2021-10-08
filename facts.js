@@ -25,5 +25,9 @@ let facts =
 let selNumber = Math.floor(Math.random() * 21);
 let funFact = facts[selNumber];
 
-console.log(funFact);
+const generateAviationFact = () => {
+    return funFact;
+};
+
+console.log(generateAviationFact());
 
